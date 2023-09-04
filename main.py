@@ -34,11 +34,11 @@ title_label = Label(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 40, "bol
 title_label.grid(column=2, row=1)
 
 # Start Button
-start_btn = Button(text="Start", bg="white", font=(FONT_NAME, 10, "bold"))
+start_btn = Button(text="Start", bg="white", font=(FONT_NAME, 10, "bold"), border=0, pady=5, padx=5)
 start_btn.grid(column=1, row=3)
 
 # Reset Button
-reset_btn = Button(text="Reset", bg="white", font=(FONT_NAME, 10, "bold"))
+reset_btn = Button(text="Reset", bg="white", font=(FONT_NAME, 10, "bold"), border=0, pady=5, padx=5)
 reset_btn.grid(column=3, row=3)
 
 # Checkmarks
